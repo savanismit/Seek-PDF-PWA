@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Oswald:wght@300&family=Raleway&family=Roboto:wght@700&display=swap');
 /*********************************
-1. Team
+1. Team Card Section
 *********************************/
 *{
 	margin: 0;
@@ -64,6 +64,7 @@ section{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	align-content: center;
 	justify-content: center;
 	margin: 2rem 0;
 	box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);	
@@ -94,7 +95,7 @@ section{
 	text-align: center;
 }
 
-.word-done{
+.card-body .word-done{
 	color: #777;
 	font-size: 1.5rem;
 	font-weight: 300;
@@ -102,10 +103,11 @@ section{
 }
 
 .about{
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	font-style: italic;
 	text-align: center;
 	color: #333;
+	margin: .5rem 0;
 }
 
 .social-media{
@@ -114,7 +116,6 @@ section{
 	display: flex;
 	justify-content: space-evenly;
 	padding: .5rem 0;
-	margin-top: 1.5rem;
 	border-top: 1px solid rgba(0,0,0,0.1);
 }
 
@@ -128,9 +129,9 @@ section{
 	color: #211F1F;
 }
 
-.fa-facebook-square
+.fa-instagram
 {
-	color: #4267B2;
+	color: #fb3958;
 }
 
 .fa-linkedin{
@@ -142,46 +143,53 @@ section{
 	color: #45e19f;
 }
 
-@media screen and (min-width: 700px)
-{
-	/* .card-wrapper{
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-	} */
-
-	.card{
-		margin: 2rem;
-		transition: .5s;
+@media (min-width: 200px) and (max-width: 576px) {
+	.profile-img{
+		width: 10rem;
+		height: 11rem;
 	}
+	.card .card-wrapper{
+		align-content: center;
+		text-align: center;
+		justify-content: center;
+	}
+	.card{
+		width: 100%;
+	}
+  }
 
-	@keyframes fadeIn {
-		from{
-			opacity: 0;
-		}
-		to{
-			opacity: 1;
-		}
-	} 
-
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-	  
+@media (min-width: 577px) and (max-width: 777px) {
+.profile-img{
+	width: 9rem;
+	height: 10rem;
 }
+}
+
+@media (min-width: 992px)
+{
+.profile-img{
+	width: 13rem;
+	height: 14rem;
+}
+} 
+  
+  @keyframes fadeIn {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}	
 .card:nth-child(1){
-	animation: fadeIn .5s .5s backwards;
+	animation: fadeIn .5s .3s backwards;
 }
 .card:nth-child(2){
-	animation: fadeIn .5s 1s backwards;
+	animation: fadeIn .5s 0.6s backwards;
 }
 .card:nth-child(3){
-	animation: fadeIn .5s 1.5s backwards;
+	animation: fadeIn .5s 0.9s backwards;
 }
 .card:hover{
 	transform: scale(1.05)
-}
 }
