@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Oswald:wght@300&family=Raleway&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 /*********************************
-1. Team Card Section
+1. General
 *********************************/
 *{
 	margin: 0;
@@ -22,6 +23,63 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
+/*********************************
+2. About Team
+*********************************/
+.intro {
+	width:100%;
+	position:relative;
+	background: url(../img/back.jpg) no-repeat top center;
+}
+
+#intro.intro {
+	padding:20% 0 0 0;
+}
+
+.intro .slogan {
+	text-align: center;
+	margin-bottom: 23%;
+}
+
+.intro .page-scroll {
+	text-align: center;
+}
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+.intro .slogan h2 {
+	color: #FFF;
+	text-shadow: none;
+	font-size: 100px;
+	line-height: 60px;
+	font-weight: 700;
+	font-family: Montserrat, sans-serif;
+	background-color: rgba(0, 0, 0, 0);
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 0px;
+	border-color: #000;
+	border-style: none;
+	text-shadow: -1px 0 1px #000;
+	margin-bottom: 2%;
+}
+
+.intro .slogan h4 {
+	margin-top: 2%;
+	color: #fff;
+	font-size: 25px;
+	text-shadow: -1px 1px 1px #000;
+}
+
+/*********************************
+2. Team Card Section
+*********************************/
 
 section{
 	padding: 10rem 0;
@@ -30,7 +88,7 @@ section{
 
 .heading{
 	text-transform: uppercase;
-	font-size: 3.5rem;
+	font-size: 4.5rem;
 	letter-spacing: 3px;
 	margin-right: -3px;
 	margin-bottom: 3rem;
@@ -138,7 +196,7 @@ section{
 	color: #0e76a8;
 }
 .fa-github:hover,
-.fa-facebook-square:hover,
+.fa-instagram:hover,
 .fa-linkedin:hover{
 	color: #45e19f;
 }
@@ -156,12 +214,25 @@ section{
 	.card{
 		width: 100%;
 	}
+	.intro .slogan h2{
+		font-size: 50px;
+	}
+	.intro .slogan h4{
+		font-size: 12.5px;
+	}
+	
   }
 
 @media (min-width: 577px) and (max-width: 777px) {
 .profile-img{
 	width: 9rem;
 	height: 10rem;
+}
+.intro .slogan h2{
+	font-size: 75px;
+}
+.intro .slogan h4{
+	font-size: 20px;
 }
 }
 
