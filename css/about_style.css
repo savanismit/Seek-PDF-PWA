@@ -23,67 +23,15 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
-/*********************************
-2. About Team
-*********************************/
-.intro {
-	width:100%;
-	position:relative;
-	background: url(../img/back.jpg) no-repeat top center;
-}
-
-#intro.intro {
-	padding:20% 0 0 0;
-}
-
-.intro .slogan {
-	text-align: center;
-	margin-bottom: 23%;
-}
-
-.intro .page-scroll {
-	text-align: center;
-}
-
-.brand-heading {
-    font-size: 40px;
-}
-
-.intro-text {
-    font-size: 18px;
-}
-
-.intro .slogan h2 {
-	color: #FFF;
-	text-shadow: none;
-	font-size: 100px;
-	line-height: 60px;
-	font-weight: 700;
-	font-family: Montserrat, sans-serif;
-	background-color: rgba(0, 0, 0, 0);
-	text-decoration: none;
-	text-transform: uppercase;
-	border-width: 0px;
-	border-color: #000;
-	border-style: none;
-	text-shadow: -1px 0 1px #000;
-	margin-bottom: 2%;
-}
-
-.intro .slogan h4 {
-	margin-top: 2%;
-	color: #fff;
-	font-size: 25px;
-	text-shadow: -1px 1px 1px #000;
-}
 
 /*********************************
 2. Team Card Section
 *********************************/
 
 section{
-	padding: 5rem 0;
+	padding: 1rem 0;
 	background-color: #fff;
+	background-image:url('../img/team_background.jpg');
 }
 
 .heading{
@@ -100,7 +48,7 @@ section{
 .heading::after{
 	content: "";
 	width: 10rem;
-	height: .8rem;
+	height: .6rem;
 	background-color: #45e19f;
 	position: absolute;
 	bottom: -2rem;
@@ -118,7 +66,7 @@ section{
 
 .card{
 	width: 50%;
-	background-image:url('../img/team_background.jpg');
+	background-color: #eeeded;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -264,4 +212,14 @@ section{
 }
 .card:hover{
 	transform: scale(1.05)
+}
+
+/*********************************
+1. Footer
+*********************************/
+
+footer p {
+    margin-top: 20px;
+    text-align: center;
+	font-weight: 400;
 }
