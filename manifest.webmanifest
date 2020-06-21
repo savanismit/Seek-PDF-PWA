@@ -1,0 +1,20 @@
+{
+    "name": "PDF Seker",
+    "short_name": "PWA",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "A source provider App",
+    "icons": [
+      {
+        "src": "img/pdf1.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "img/pdf1.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ]
+  }
