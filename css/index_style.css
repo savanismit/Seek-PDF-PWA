@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Proza+Libre:ital,wght@1,800&display=swap');
 /************************/
 /* Genaral */
 /***********************/
@@ -39,7 +40,24 @@
     margin-top: 0%;
     flex: 1;
  }
- 
+
+/************************/
+/* Title */
+/***********************/
+
+.logo_1{
+   margin: 7% 10%;
+}
+.logo_1 .seek{
+   font-family: Proza;
+   font-size: 3rem;
+   font-weight: 600;
+}
+.logo_1 .pdf{
+   font-family: Pacifico;
+   font-size: 2rem;
+}
+
 /************************/
 /* Sidebar */
 /***********************/
@@ -51,7 +69,7 @@
  }
  
  .dropdown-content {
-    display: none;
+   display: none;
    position: absolute;
    background-color: #f1f1f1;
    min-width: 130px;
@@ -67,7 +85,7 @@
    background-color:#45e19f;
  }
  
- .dropdown-content a:hover {background-color: #ddd;}
+ .dropdown-content a:hover {background-color: #45e19f;}
  
  .dropdown:hover .dropdown-content 
  {
@@ -79,7 +97,7 @@
  
  .vertical-menu {
    width: 250px;
-   height: 150px;
+   height: 500px;
    overflow-y: auto;
    background-color:#45e19f;
  }
@@ -103,7 +121,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 4em;
+    height: 3em;
     background: #192b3c;
  }
  
@@ -134,7 +152,7 @@
  }
  
  .s-sidebar__nav ul {
-    position: absolute;
+    /* position: absolute; */
     top: 4em;
     left: 0;
     margin: 0;
@@ -161,7 +179,8 @@
  }
  
  .s-sidebar__nav-link:hover {
-    background: #45e19f;
+    color: #45e19f; 
+   /* background: #45e19f; */
  }
  
  .s-sidebar__nav-link > i {
@@ -318,3 +337,40 @@
       transition: all 0.5s;
   }
   
+ 
+/************************/
+/* Welcome Page content*/
+/***********************/
+.welcome{
+   font-size: 100px;
+   margin-top: 20%;
+   font-family: Roboto;
+   text-shadow: 1px 2px #b7f8dd;
+}
+
+@media (min-width: 200px) and (max-width: 399px) {
+
+   .welcome{
+   font-size: 40px;
+   margin-top: 80%;
+}
+}
+@media (min-width: 400px) and (max-width: 576px) {
+.welcome{
+   font-size: 50px;
+   margin-top: 60%;
+}
+}
+@media (min-width: 577px) and (max-width: 800px) {
+.welcome{
+   font-size: 75px;
+   margin-top: 30%;
+}
+}
+@media (min-width: 992px){
+.welcome{
+   font-size: 100px;
+   margin-top: 20%;
+}
+
+}
