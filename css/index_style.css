@@ -43,7 +43,60 @@
 /************************/
 /* Sidebar */
 /***********************/
-x
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+   background-color:#45e19f;
+ }
+ 
+ .dropdown-content {
+    display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   min-width: 130px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ .dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   background-color:#45e19f;
+ }
+ 
+ .dropdown-content a:hover {background-color: #ddd;}
+ 
+ .dropdown:hover .dropdown-content 
+ {
+   display: block;  
+   background-color:#45e19f;
+ }
+ 
+ .dropdown:hover  {background-color: #45e19f;}
+ 
+ .vertical-menu {
+   width: 250px;
+   height: 150px;
+   overflow-y: auto;
+   background-color:#45e19f;
+ }
+ 
+ .vertical-menu a {
+   background-color: #eee;
+   color: black;
+   display: block;
+   padding: 12px;
+   text-decoration: none;
+ }
+
+ .vertical-menu a.active {
+   background-color:#45e19f;
+   color: white;
+ }
+
  .s-sidebar__trigger {
     z-index: 2;
     position: fixed;
@@ -254,11 +307,6 @@ x
   .services-cards .service-item:hover {
       background-color: #45e19f;
   }
-  
-  /* .services .service-item:hover h4,
-  .services .service-item:hover p {
-       color: #fff; 
-  } */
   
   .services-cards .service-item h4 {
       margin-bottom: 20px;

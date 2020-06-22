@@ -1,6 +1,6 @@
 <!-- Sidebar -->
 <div class="s-layout__sidebar">
-  <a class="s-sidebar__trigger" href="#0">
+  <a class="s-sidebar__trigger" href="#">
      <i class="fa fa-bars"></i>
   </a>
 
@@ -11,11 +11,33 @@
               <i class="fa fa-home"></i><em>Home</em>
            </a>
         </li>
-        <li>
-           <a class="s-sidebar__nav-link" href="#0">
-             <i class="fa fa-database"></i><em>Sources</em>
-           </a>
-        </li>
+        <li onmouseover="show()" onmouseout="hide()">
+              <div class="dropdown">
+                      <a class="s-sidebar__nav-link" href="#0" ><i class="fa fa-database"></i><em>Source</em></a>
+                  <div class="vertical-menu dropdown-content" id="drop" onmouseover="show()" onmouseout="hide()">
+                        <a href="artificial.html">Artifical Intelligence</a>
+                        <a href="big.html">Big Data</a>
+                        <a href="shortcodes.html">Data Engineering</a>
+                        <a href="shortcodes.html">Data Mining</a>
+                        <a href="shortcodes.html">Data Science </a>
+                        <a href="shortcodes.html">Data Visualization</a>
+                        <a href="shortcodes.html">Data Warehouse</a>
+                        <a href="shortcodes.html">Deep Learning</a>           
+                        <a href="devops.html">DevOps</a>
+                        <a href="excel.html">Excel</a>
+                        <a href="git.html">Git</a>
+                        <a href="interviewquestion.html">Interview Questions</a>
+                        <a href="linux.html">Linux</a>
+                        <a href="ml.html">Machine Learning</a>
+                        <a href="nlp.html">NLP</a>
+                        <a href="numpy.html">Numpy</a>
+                        <a href="pandas.html">Pandas</a>
+                        <a href="python.html">Python</a>
+                        <a href="rcheetsheet.html">R Cheat Sheet </a>
+                        <a href="scala.html">Scala</a>
+                    </div>
+              </div>     
+          </li>
         <li>
            <a class="s-sidebar__nav-link" href="about.html">
               <i class="fa fa-user"></i><em>About</em>
