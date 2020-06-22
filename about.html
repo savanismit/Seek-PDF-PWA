@@ -10,13 +10,21 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap4/bootstrap.min.css">
 
 <link rel="stylesheet" type="text/css" href="css/about_style.css">
+<link rel="stylesheet" type="text/css" href="css/index_style.css">
 
 <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/76f6757468.js" crossorigin="anonymous"></script>
 
 <link rel="manifest" href="/manifest.webmanifest">
 
 </head>
 <body>
+
+<div class="s-layout">
+
+<!-- Sidebar Included -->
+<div id="sidebar"></div>
+<main class="s-layout__content">
 
 <!-- Team Card Section -->
 <section  id="service" class="team">
@@ -49,9 +57,9 @@
             <p class="about text-center">I am a B.tech Student</p>
         </div>
             <ul class="social-media">
-                <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/MuskanShah"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/muskan-s-04b276184/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/muskanshah_0710"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
             </ul>
     </div>
 
@@ -60,29 +68,31 @@
         <img src="img/team3.jpg" alt="portfolio image" class="profile-img">
         <div class="card-body">
             <h1>Aditi Shah</h1>
-            <p class="word-done text-center">Developer</p>
+            <p class="word-done text-center">Web-Designer</p>
             <p class="about text-center">I am a B.tech Student</p>
         </div>
             <ul class="social-media">
-                <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/aditi76"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/aditishah76"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/aditi_76_"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
             </ul>
         </div>  
    </div> 
 </div>
 </section>
-
-<!-- Footer -->
-<footer>
-    <div class="text-center">
-        <img src="img/.ico" class="logo">
-    </div>
-    <p>Copyright &copy; 2020 All Rights Reserved.</p>
-</footer>
+</main>
+</div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="css/bootstrap4/popper.js"></script>
 <script src="css/bootstrap4/bootstrap.min.js"></script>
+<script src="js/sidebar.js"></script>
+
+<script> 
+$(function(){
+  $("#sidebar").load("sidebar.html");  
+});
+</script> 
+
 </body>
 </html>
