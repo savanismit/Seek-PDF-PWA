@@ -168,7 +168,9 @@ section{
 	.intro .slogan h4{
 		font-size: 12.5px;
 	}
-	
+	.heading{
+	margin-top: 15%;
+	}
 	
   }
 
@@ -182,6 +184,9 @@ section{
 }
 .intro .slogan h4{
 	font-size: 20px;
+}
+.heading{
+	margin-top: 15%;
 }
 }
 
@@ -212,14 +217,4 @@ section{
 }
 .card:hover{
 	transform: scale(1.05)
-}
-
-/*********************************
-1. Footer
-*********************************/
-
-footer p {
-    margin-top: 20px;
-    text-align: center;
-	font-weight: 400;
 }
