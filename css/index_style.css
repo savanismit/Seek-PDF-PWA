@@ -246,8 +246,15 @@
 /* Services Cards */
 /***********************/
 
+.topic-detail{
+   font-size: 45px;
+   font-family: Roboto;
+   margin-bottom: 3%;
+   text-shadow: 1px 2px #b7f8dd;
+}
+
 .services-cards {
-    margin-top: 15%;   
+    margin-top: 10%;   
     /* visibility: hidden; */  
   }
   
@@ -263,14 +270,14 @@
   }
   
   .services-cards .service-item {
+      min-height: 170px;
+      min-width: 350px;
       margin-bottom: 3px;
       background-color: #d4d4d6;
       padding: 10px ;
       width: 100%;
       text-align: center;
       transition: all 0.5s;
-      min-height: 200px;
-      min-width: 250px;
   }
   
   .services-cards .service-item .icon {
@@ -284,7 +291,7 @@
   }
   
   .services-cards .first-item .icon {
-      background-image: url(../images/icon_01.png);
+      background-image: url(../img/icon.png);
   }
   .services-cards .first-item:hover .icon {
       background-image: url(../images/icon_hover_01.png);
