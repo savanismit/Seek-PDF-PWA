@@ -254,7 +254,7 @@
 }
 
 .services-cards {
-    margin-top: 10%;   
+    margin-top: 5%;   
     /* visibility: hidden; */  
   }
   
@@ -284,66 +284,44 @@
       width: 50px;
       height: 50px;
       display: inline-block;
-      margin-bottom: 30px;
+      margin-top: 10px;
+      margin-bottom: 20px;
       background-size: cover;
       background-repeat: no-repeat;
       transition: all 0.5s;
   }
   
   .services-cards .first-item .icon {
-      background-image: url(../img/icon.png);
+      background-image: url(../img/icon2.png);
   }
-  .services-cards .first-item:hover .icon {
-      background-image: url(../images/icon_hover_01.png);
-  }
-  
   .services-cards .second-item .icon {
-      background-image: url(../images/icon_02.png);
+      background-image: url(../img/icon1.png);
   }
-  .services-cards .second-item:hover .icon {
-      background-image: url(../images/icon_hover_02.png);
-  }
-  
   .services-cards .third-item .icon {
-      background-image: url(../images/icon_03.png);
+      background-image: url(../img/icon2.png);
   }
-  .services-cards .third-item:hover .icon {
-      background-image: url(../images/icon_hover_03.png);
-  }
-  
   .services-cards .fourth-item .icon {
-      background-image: url(../images/icon_04.png);
-  }
-  .services-cards .fourth-item:hover .icon {
-      background-image: url(../images/icon_hover_04.png);
-  }
-  
+      background-image: url(../img/icon1.png);
+  }  
   .services-cards .fivth-item .icon {
-      background-image: url(../images/icon_05.png);
+      background-image: url(../img/icon2.png);
   }
-  .services-cards .fivth-item:hover .icon {
-      background-image: url(../images/icon_hover_05.png);
-  }
-  
   .services-cards .sixth-item .icon {
-      background-image: url(../images/icon_06.png);
+      background-image: url(../img/icon1.png);
   }
-  .services-cards .sixth-item:hover .icon {
-      background-image: url(../images/icon_hover_06.png);
-  }
-  
+
   .services-cards .service-item:hover {
       background-color: #45e19f;
   }
   
   .services-cards .service-item h4 {
       margin-bottom: 20px;
-      transition: all 0.5s;
+      transition: all 0.3s;
   }
-  
-  .services-cards .service-item  p {
+
+   .services-cards .service-item  p {
       margin-bottom: 0px;
-      transition: all 0.5s;
+      transition: all 0.3s;
   }
   
  
@@ -363,18 +341,36 @@
    font-size: 40px;
    margin-top: 80%;
 }
+
+.services-cards {
+   margin-top: 15%;   
+   /* visibility: hidden; */  
+ }
+
 }
 @media (min-width: 400px) and (max-width: 576px) {
 .welcome{
    font-size: 50px;
    margin-top: 60%;
 }
+
+.services-cards {
+   margin-top: 15%;   
+   /* visibility: hidden; */  
+ }
+
 }
 @media (min-width: 577px) and (max-width: 800px) {
 .welcome{
    font-size: 75px;
    margin-top: 30%;
 }
+
+.services-cards {
+   margin-top: 15%;   
+   /* visibility: hidden; */  
+ }
+
 }
 @media (min-width: 992px){
 .welcome{
