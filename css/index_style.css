@@ -269,6 +269,8 @@
       width: 100%;
       text-align: center;
       transition: all 0.5s;
+      min-height: 170px;
+      min-width: 350px;
   }
   
   .services-cards .service-item .icon {

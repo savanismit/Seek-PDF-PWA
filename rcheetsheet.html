@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>R lang</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Unicat project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap4/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="css/index_style.css">
+
+<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/76f6757468.js" crossorigin="anonymous"></script>
+
+<link rel="manifest" href="manifest.webmanifest">
+
+</head>
+<body>
+
+<div class="s-layout">
+
+<!-- Sidebar Included -->
+<div id="sidebar"></div>
+
+<!-- Content -->
+<main class="s-layout__content">
+
+<!-- Services Cards -->
+<section class="services-cards">
+    <div class="container-fluid">
+        <div class="row">
+            
+            <div class="col-md-4">
+                <a href="https://drive.google.com/file/d/1iJeFqAC_c_wJex4kUhQaHQSasZgl7xJ9/view?usp=sharing">
+                    <div class="service-item first-item">
+                        <div class="icon"></div>
+                        <h4>Basic R</h4>           
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://drive.google.com/file/d/10kEGwOL9XsoDXcUUr_A-p976A08dKmhm/view?usp=sharing">
+                    <div class="service-item second-item">
+                        <div class="icon"></div>
+                        <h4>R Cheat Sheet</h4>          
+                    </div>
+                </a>   
+            </div>
+       
+            <div class="col-md-4">
+                <a href="https://drive.google.com/file/d/1I8y5v648FtSyK55DgZKCmYmz2FEC7Dqv/view?usp=sharing">
+                    <div class="service-item third-item">
+                        <div class="icon"></div>
+                        <h4>R Cheat Sheet(1)</h4>    
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-md-4">
+                <a href="https://drive.google.com/file/d/1w5IVxsfBT_ywY8ez8Bqa_Hwx8xFafuW1/view?usp=sharing">
+                    <div class="service-item fourth-item">
+                        <div class="icon"></div>
+                        <h4>R Reference-card</h4>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+</main>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="css/bootstrap4/popper.js"></script>
+<script src="css/bootstrap4/bootstrap.min.js"></script>
+
+<script> 
+$(function(){
+  $("#sidebar").load("/sidebar.html");  
+});
+</script> 
+
+</body>
+</html>
