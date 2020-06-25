@@ -1,7 +1,7 @@
 {
     "name": "PDF Seker",
     "short_name": "PWA",
-    "start_url": "/pages",
+    "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#fff",
     "description": "A source provider App",

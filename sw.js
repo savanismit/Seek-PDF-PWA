@@ -1,7 +1,7 @@
 const staticCacheName = 'site-static-v1';
 const assets = [
   '/',
-  '/pages/index.html',
+  '/index.html',
   '/pages/about.html',
   '/pages/AI.html',
   '/pages/bigdata.html',
@@ -19,7 +19,7 @@ const assets = [
   '/pages/pandas.html',
   '/pages/python.html',
   '/pages/rcheetsheet.html',
-  '/pages/sidebar.html',
+  '/sidebar.html',
 
   '/js/sidebar.js',
   '/js/jquery-3.2.1.min.js',
