@@ -346,7 +346,10 @@
    margin-top: 15%;   
    /* visibility: hidden; */  
  }
-
+ .vertical-menu {
+   width: 250px;
+   height: 340px;
+ }
 }
 @media (min-width: 400px) and (max-width: 576px) {
 .welcome{
@@ -358,7 +361,10 @@
    margin-top: 15%;   
    /* visibility: hidden; */  
  }
-
+ .vertical-menu {
+   width: 250px;
+   height: 350px;
+}
 }
 @media (min-width: 577px) and (max-width: 800px) {
 .welcome{
@@ -370,12 +376,23 @@
    margin-top: 15%;   
    /* visibility: hidden; */  
  }
-
+ .vertical-menu {
+   width: 250px;
+   height: 335px;
+}
 }
 @media (min-width: 992px){
 .welcome{
    font-size: 100px;
    margin-top: 20%;
 }
+}
 
+@media (min-width: 667px) and (max-width: 1089px) {
+.logo_1 .seek{
+   font-size: 1.5rem;
+}
+.logo_1 .pdf{
+   font-size: 1rem;
+}
 }
