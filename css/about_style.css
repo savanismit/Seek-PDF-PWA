@@ -151,8 +151,8 @@ section{
 
 @media (min-width: 200px) and (max-width: 576px) {
 	.profile-img{
-		width: 11rem;
-		height: 12rem;
+		width: 9rem;
+		height: 10rem;
 	}
 	.card .card-wrapper{
 		align-content: center;
