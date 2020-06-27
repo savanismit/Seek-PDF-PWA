@@ -13,7 +13,9 @@ Link - https://savanismit.github.io/Seek-PDF-PWA/
 ### Screenshots
 ##### 1. Home page
 ![home](home.png)
-##### 2. Topic Page
+##### 2. Popup page in mobile phones
+![popup](popup.jpeg)
+##### 3. Topic Page
 ![pages](pages.png)
-##### 3. About us Page
+##### 4. About us Page
 ![about](about.png)
